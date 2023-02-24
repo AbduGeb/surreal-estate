@@ -1,0 +1,31 @@
+.navbar {
+    background-color: white;
+    border-bottom: gray;
+    display: flex;
+    align-items: center;
+  }
+
+  
+
+   .logo {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+   }
+
+   .navbar-links {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    display: flex;
+   }
+
+   .navbar-links-item {
+    margin: 0%;
+    padding: 10%;
+    display: inline-block;
+    width: 220px;
+   }
+
+   .item {
+      color: blue;
+  }

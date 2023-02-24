@@ -1,11 +1,24 @@
+import React from "react";
+import NavBar from "./NavBar";
+import { Routes, Route } from "react-router-dom";
+import "../styles/app.css"
+import Properties from "./Properties";
+import AddProperty from "./AddProperty";
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h2>Surreal Estate</h2>
+      <header className="App-header">
+      <h1>Surreal Estate</h1>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={ Properties } />
+        <Route path="/add-property" element={ AddProperty } />
+      </Routes>
+
+      </header>
     </div>
   );
-}
+};
 
 export default App;
