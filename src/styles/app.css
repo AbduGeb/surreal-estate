@@ -1,8 +1,25 @@
+* {
+background-color: rgb(174,226,219);
+}
+
 .navbar {
   background-color: white;
   border-bottom: gray;
 }
 
+.navbar-links-item {
+  background-color: white;
+}
+
+.item {
+  background-color: rgb(255, 255, 255);
+  font-variant-caps: petite-caps;
+  font-size: larger;
+  font-style: italic;
+}
+
 h1 {
-  border-bottom: double grey;
+  color: rgb(48, 17, 0);
+  font-family: 'Aclonica';font-size: 50px;
+  border-bottom: double rgb(6, 33, 185);
 }
