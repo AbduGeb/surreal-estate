@@ -1,4 +1,88 @@
 .add-property {
     padding: 2%;
-    background-color: blueviolet;
+    padding-inline: 10%;
+    background-color: rgb(218, 218, 218);
+
+}
+
+
+/* .add-button {
+  
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+} */
+
+.block {
+    color: rgb(165, 87, 42);
+    margin-inline: 4%;
+}
+
+.add-property-form__input {
+    width: 25%;
+    height: 2rem;
+    margin-top: 0.5%;
+    border: 2px solid #1A1A1A;
+
+}
+
+.add-property-form__option {
+    height: 2rem;
+    margin-top: 0.5%;
+    border-radius: 10px;
+    border: 2px solid #1A1A1A;
+}
+
+.add-button {
+    appearance: none;
+    background-color: rgb(165, 87, 42);
+    border: 2px solid rgb(158, 81, 36);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+    will-change: transform;
+}
+
+.add-button:disabled {
+    pointer-events: painted;
+}
+
+.add-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.add-button:active {
+    box-shadow: none;
+    transform: translateY(0);
 }

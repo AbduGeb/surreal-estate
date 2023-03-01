@@ -1,7 +1,10 @@
 * {
-background-color: rgb(174,226,219);
+background-color: rgb(255, 255, 255);
 }
 
+.App {
+  display: table;
+}
 .navbar {
   background-color: white;
   border-bottom: gray;
@@ -19,7 +22,7 @@ background-color: rgb(174,226,219);
 }
 
 h1 {
-  color: rgb(48, 17, 0);
+  color: rgb(95, 33, 0);
   font-family: 'Aclonica';font-size: 50px;
   border-bottom: double rgb(6, 33, 185);
 }
