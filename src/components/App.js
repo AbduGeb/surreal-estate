@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+      Surreal Estate
       <NavBar />
       <Routes>
         <Route path="/" element={<Properties />} />
